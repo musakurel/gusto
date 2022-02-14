@@ -1,0 +1,202 @@
+ .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    display: flex;
+    width: 400px;
+    margin: 20px;
+    border: none;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 0.9em;
+    border-radius: 5px;
+    border: white solid 1px;
+    font-family: "Bakbak One", cursive;
+  }
+  
+  .submit {
+    margin-left: 175px;
+    width: 100px !important;
+    color: white;
+    font-family: "Bakbak One", cursive;
+    padding: 10px 20px;
+    border: white solid 1px;
+    background-color: transparent;
+  }
+  .submit:hover {
+    color: #283046;
+    background-color: white;
+    cursor: pointer;
+  }
+  .header {
+    margin: 40px;
+    color: white;
+    font-family: "Bakbak One", cursive;
+    padding: 20px;
+  }
+  .check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .checkbox{
+    width: 20px;
+  }
+ 
+ label{
+   color: whitesmoke;
+ }
+
+ .post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+  color:whitesmoke
+
+}
+.postTitle{
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.postWrapper {
+  padding: 10px;
+  width: 50%;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+    color: white;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImg{
+    margin-top: 20px;
+max-width: 500px;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;   
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
+.share-button{
+  background-color: whitesmoke;
+  color: #283046;
+  margin: 10px 20px;
+  padding: 5px 20px;
+  border: none;
+}
+.share-button:hover{
+  background-color: rgb(224, 221, 221);
+  color: #283046;
+  margin: 10px 20px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+}
+.shared-button{
+  background-color: whitesmoke;
+  color: #aeafb1;
+  margin: 10px 20px;
+  padding: 5px 20px;
+  border: none;
+}
+
+
+
+.title-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.title{
+  color: whitesmoke;
+  font-size: 30px;
+  }
+  .subtitle{
+  color: whitesmoke;
+  }
+
+
+  .delete {
+    margin-top:50px;
+    width: 100px !important;
+    color: white;
+    font-family: "Bakbak One", cursive;
+    padding: 10px 20px;
+    border: rgb(228, 3, 3) solid 1px;
+    background-color: transparent;
+  }
+  .delete:hover {
+    color: rgb(228, 3, 3);
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .edit{
+    width: 24px;
+    height: 24px;
+  }
