@@ -45,7 +45,7 @@ const Sidebar = () => {
           
           <Menu.ItemGroup className="menu-heading" title={
     <>
-      <span className="category-name">CATEGORY 1</span>
+      <span className="category-name">Feed</span>
     </>
   }>
             <Menu.Item icon={<Icon icon="feather-mail" height={20} />} key="1">
